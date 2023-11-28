@@ -12,8 +12,8 @@ The dataset can be downloaded from the following link:
 ## Annotations
 The dataset provides annotations in two primary formats:
 
-1. **Object Detection Annotations (det.png):** Stored in `.txt` files, these annotations follow the format `class_id xc yc w h`, where `xc`, `yc`, `w`, and `h` represent the center coordinates, width, and height of the bounding box, respectively. Example format:
+1. **Object Detection Annotations:** Stored in `.txt` files, these annotations follow the format `class_id xc yc w h`, where `xc`, `yc`, `w`, and `h` represent the center coordinates, width, and height of the bounding box, respectively. Example format:
 ![https://github.com/SEU-zhc/complexPavementCrackDataset/blob/main/det.png](https://github.com/SEU-zhc/complexPavementCrackDataset/blob/main/det.png)
 
-2. **Semantic Segmentation Annotations (seg.png):** These are binary masks (`crackmask`) corresponding to the cracks in the original images. They provide a pixel-wise annotation for semantic segmentation tasks.
+2. **Semantic Segmentation Annotations:** These are binary masks (`crackmask`) corresponding to the cracks in the original images. They provide a pixel-wise annotation for semantic segmentation tasks.
 ![https://github.com/SEU-zhc/complexPavementCrackDataset/blob/main/seg.png](https://github.com/SEU-zhc/complexPavementCrackDataset/blob/main/seg.png)
